@@ -82,8 +82,10 @@ uma compra, exibir os dados de cada venda).
 - Exibir os dados da venda do cliente mais novo (se ele fez mais de uma
 compra, exibir os dados de cada venda).
 
-Após exibir as informações, deve-se perguntar se o usuário deseja retornar
-ao menu principal. Se sim retorne ao menu principal, senão encerre o
+Após exibir as informações:
+- Perguntar se o usuário deseja retornar ao menu principal.
+    - Se sim retorne ao menu principal.
+    - Se não encerre o
 programa.
 
 ### 5. Ao abrir o programa, carregue todas as compras do bloco de notas, caso exista
