@@ -6,16 +6,17 @@ os elementos do sistema e cumpra as etapas abaixo. O projeto será testado
 contra plágio vindo de Inteligência Artificial (ChatGPT entre outros). Caso o
 código seja produzido desta maneira, o trabalho do grupo será desconsiderado.
 
-Enunciado do Problema
+
+## Enunciado do Problema
 Uma loja de casacos precisa controlar suas vendas, entender seus clientes e
 realizar algumas consultas. Para isso, você foi contratado para desenvolver a
 primeira versão de um software gerenciador desta loja.
 
-Etapas
+## Etapas
 Leia todas as etapas antes de começar a implementar o trabalho. Lembre-se
 que a participação de todos influencia diretamente na nota final do trabalho.
 
-1. Criar o menu principal
+### 1. Criar o menu principal
 Você deve fazer um menu pedindo para o usuário escolher entre as seguintes
 opções: Use a variável continuaMenu par a repetição
 ● Cadastrar novas vendas
@@ -23,7 +24,7 @@ opções: Use a variável continuaMenu par a repetição
 ● Ver informações de todas as vendas
 ● Encerrar o programa
 
-2. Fazer o cadastro de uma quantidade de vendas definida pelo usuário
+### 2. Fazer o cadastro de uma quantidade de vendas definida pelo usuário
 Pergunte ao usuário qual a quantidade de vendas que ele deseja cadastrar. Crie
 um vetor com alocação dinâmica de memória e cadastre cada venda realizada.
 Cada venda é uma estrutura representada pelo cliente (estrutura), número de
@@ -44,7 +45,7 @@ Após o término de todo o cadastro, salve as informações em um bloco de notas
 nomeado de “loja.txt”. Pergunte ao usuário se ele deseja cadastrar mais itens
 (quantidade informada novamente) ou voltar ao menu principal.
 
-3. Pesquisar uma venda específica
+### 3. Pesquisar uma venda específica
 ● Você deve pedir o nome do cliente a ser pesquisado.
 ● Informar todas as vendas feitas para este cliente, ou seja, o valor total de
 cada compra, a nome do vendedor e a quantidade de itens em cada
@@ -56,9 +57,10 @@ nome.
 Após exibir a informação das compras ou a informação que não encontrou,
 perguntar se o usuário deseja pesquisar novamente ou retornar ao menu
 principal.
-4. Ver informações de todas as vendas
+
+### 4. Ver informações de todas as vendas
 Você deve:
-● Pedir um valor que será usado para exibir a quantidade de vendas abaixo
+●-Pedir um valor que será usado para exibir a quantidade de vendas abaixo
 deste valor.
 ● Exibir a quantidade de vendas que teve exatamente 1 item vendido.
 ● Exibir a quantidade de vendas que foram realizadas pela “Luiza”.
@@ -78,7 +80,7 @@ Após exibir as informações, deve-se perguntar se o usuário deseja retornar
 ao menu principal. Se sim retorne ao menu principal, senão encerre o
 programa.
 
-5. Ao abrir o programa, carregue todas as compras do bloco de notas, caso
+### 5. Ao abrir o programa, carregue todas as compras do bloco de notas, caso
 exista
 
 Todo o registro de compras deve ser salvo no bloco de notas “loja.txt”. Ao
